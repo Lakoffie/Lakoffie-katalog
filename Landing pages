@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakoffie | Kopi Bubuk Home Made Terbaik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #6f4e37; /* Warna Kopi */
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            background-color: #fafafa;
+        }
+        .wa-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #25D366; /* Warna WA */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        .wa-button:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat Datang di Lakoffie</h1>
+        <p>Kopi Bubuk Home Made, Biji Pilihan Terbaik!</p>
+        <hr>
+
+        <h2>☕ Katalog Produk </h2>
+
+        <div class="product-card">
+            <h3>Lakoffie Robusta Blend (250g)</h3>
+            <p>Aroma kuat, rasa mantap, cocok untuk kopi susu atau kopi hitam pagi hari.</p>
+            <p>Harga: Rp 35.000,-</p>
+        </div>
+
+        <div class="product-card">
+            <h3>Lakoffie Arabika Gayo (250g)</h3>
+            <p>Aroma buah-buahan, rasa asam yang segar, pas untuk pecinta kopi filter.</p>
+            <p>Harga: Rp 65.000,-</p>
+        </div>
+
+        <p style="margin-top: 30px;">
+            Tertarik dengan produk Lakoffie? Klik tombol di bawah ini untuk memesan langsung melalui WhatsApp!
+        </p>
+
+        <a class="wa-button" 
+           href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20kopi%20Lakoffie.%20Mohon%20info%20pemesanan."
+           target="_blank">
+           Pesan Sekarang Via WhatsApp
+        </a>
+        <p style="font-size: small; margin-top: 20px;">*Ganti nomor telepon di atas dengan nomor WA Anda (gunakan kode negara 62).</p>
+    </div>
+</body>
+</html>
