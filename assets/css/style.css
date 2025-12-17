@@ -288,23 +288,38 @@ body.popup-active {
 /* =============================
    MITRA – PREMIUM LOOK
    ============================= */
+.mitra-card,
+.mitra-card:hover,
+.mitra-card:visited {
+  text-decoration: none;
+}
+
 .mitra-card {
   display: flex;
   flex-direction: column;
   gap: 8px;
   align-items: center;
+  transition: all 0.25s ease;
 }
 
 .mitra-card h3 {
   font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  color: #222;
 }
 
 .mitra-label {
-  font-size: 0.8rem;
-  color: #8a8a8a;
-  letter-spacing: 0.4px;
+  font-size: 0.85rem;
+  color: #777;
+  font-weight: 500;
+}
+
+.mitra-label::before {
+  content: "✓ ";
+  color: #2ecc71;
+  font-weight: 600;
 }
 
 /* Hover premium */
@@ -337,9 +352,11 @@ body.popup-active {
 }
 
 .artikel-card {
-  min-width: 260px;
-  max-width: 260px;
-  flex-shrink: 0;
+  text-align: center;
+}
+.artikel-card a {
+  display: inline-block;
+  margin-top: 24px;
 }
 
 /* Navigasi slider */
@@ -406,3 +423,51 @@ body.popup-active {
   display: none;
 }
 
+.artikel-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.artikel-segment {
+  margin-bottom: 60px;
+}
+
+.artikel-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+
+.artikel-card {
+  width: 100%;
+  max-width: 700px;   /* ini yang bikin konten rapi di tengah */
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.not-found {
+  margin-top: 20px;
+  font-style: italic;
+  color: #666;
+}
+
+.artikel-segment h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.artikel-segment h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #8b5e3c; /* warna kopi */
+  margin: 10px auto 0;
+  border-radius: 2px;
+   }
